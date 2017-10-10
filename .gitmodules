@@ -16,9 +16,6 @@
 [submodule "3rdplibs/mongoose"]
 	path = 3rdplibs/mongoose
 	url = https://github.com/rantoniello/mongoose.git
-[submodule "3rdplibs/nasm"]
-	path = 3rdplibs/nasm
-	url = https://github.com/rantoniello/nasm.git
 [submodule "3rdplibs/sdl"]
 	path = 3rdplibs/sdl
 	url = https://github.com/rantoniello/sdl.git
