@@ -34,3 +34,6 @@
 [submodule "3rdplibs/nasm"]
 	path = 3rdplibs/nasm
 	url = https://github.com/rantoniello/nasm.git
+[submodule "MediaProcessors"]
+	path = MediaProcessors
+	url = https://github.com/rantoniello/MediaProcessors.git
