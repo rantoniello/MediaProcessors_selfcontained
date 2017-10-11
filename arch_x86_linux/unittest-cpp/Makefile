@@ -15,11 +15,11 @@ config:
 	@mkdir -p $(PREFIX)/include
 	@mkdir -p $(BUILD_DIR)
 	@if [ ! -f $(BUILD_DIR)/Makefile ] ; then \
-		cd $(SOURCE_DIR); \
-		./autogen.sh; \
-		cd $(BUILD_DIR); \
-		$(SOURCE_DIR)/configure $(CONFIGURE_PARAMS); \
-	fi
+                cd $(SOURCE_DIR); \
+                ./autogen.sh; \
+                cd $(BUILD_DIR); \
+                $(SOURCE_DIR)/configure $(CONFIGURE_PARAMS); \
+        fi
 
 build: config
 	cd $(BUILD_DIR); make
