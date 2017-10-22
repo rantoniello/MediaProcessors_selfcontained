@@ -47,6 +47,22 @@ Other examples to build/clean particular libs.:
 > $ make x86_codecs_clean\
 > ...
 
-Once you have successfully compiled and installed the project, please continue 
-ahead with MediaProcessors [documentation](md_DOCUMENTATION.html)
-(code examples are provided at the end of the documentation).
+Documentation
+=====================
+
+First o all, please <b>generate the documentation</b>.
+Go to the 'docs' folder
+
+> $ cd MediaProcessors_selfcontained/MediaProcessors/docs/
+
+and perform
+
+> $ doxygen Doxyfile
+
+Change to the 'docs/html' folder
+
+> $ cd html
+
+and open the file 'index.html' (documentation index) with any browser. 
+
+Now please continue ahead with MediaProcessors [documentation](md_DOCUMENTATION.html)
