@@ -65,4 +65,6 @@ Change to the 'docs/html' folder
 
 and open the file 'index.html' (documentation index) with any browser. 
 
-Now please continue ahead with MediaProcessors [documentation](md_DOCUMENTATION.html)
+Now please continue ahead with MediaProcessors [documentation](md_DOCUMENTATION.html)<br>
+(To see documentation directly from GitHub follow [this link](https://rantoniello.github.io/MediaProcessors/html/))
+
