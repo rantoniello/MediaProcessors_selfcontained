@@ -47,14 +47,6 @@ Other examples to build/clean particular libs.:
 > $ make x86_codecs_clean\
 > ...
 
-Application examples source codes are available at
-
-> <..>/MediaProcessors_selfcontained/MediaProcessors/examples/
-
-Each example is compiled automatically and the corresponding binary is installed at
-
-> <...>/MediaProcessors_selfcontained/_install_dir_x86/bin
-
-To run, let's say, the 'codecs_muxers_loopback' example, just type:
-
-> LD_LIBRARY_PATH=<...>/MediaProcessors_selfcontained/_install_dir_x86/lib <...>/MediaProcessors_selfcontained/_install_dir_x86/bin/mediaprocs_codecs_muxers_loopback
+Once you have successfully compiled and installed the project, please continue 
+ahead with MediaProcessors [documentation](md_DOCUMENTATION.html)
+(code examples are provided at the end of the documentation).
