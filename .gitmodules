@@ -7,9 +7,6 @@
 [submodule "3rdplibs/lame"]
 	path = 3rdplibs/lame
 	url = https://github.com/rantoniello/lame.git
-[submodule "3rdplibs/LHE"]
-	path = 3rdplibs/LHE
-	url = https://github.com/rantoniello/LHE.git
 [submodule "3rdplibs/live555"]
 	path = 3rdplibs/live555
 	url = https://github.com/rantoniello/live555.git
