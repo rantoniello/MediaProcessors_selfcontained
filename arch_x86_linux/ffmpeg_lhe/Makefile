@@ -1,6 +1,6 @@
 LIBNAME:= ffmpeg_lhe
 BUILD_DIR:= $(shell pwd)/build_dir
-SOURCE_DIR:= $(shell pwd)/../../3rdplibs/LHE
+SOURCE_DIR:= $(shell pwd)/../../3rdplibs/LHE_c
 PREFIX:= $(INSTALL_DIR)$(CROSS_ARCH)
 
 # Export PATH to be able to find YASM in compilation
