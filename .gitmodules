@@ -34,7 +34,3 @@
 [submodule "MediaProcessors"]
 	path = MediaProcessors
 	url = https://github.com/rantoniello/MediaProcessors.git
-[submodule "3rdplibs/LHE_c"]
-	path = 3rdplibs/LHE_c
-	url = https://github.com/jjaranda13/LHE_c.git
-	branch = lhe_develop
