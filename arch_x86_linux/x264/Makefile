@@ -6,7 +6,7 @@ PREFIX:= $(INSTALL_DIR)$(CROSS_ARCH)
 # Export PATH to be able to find YASM in compilation
 export PATH:= $(PREFIX)/bin:$(PATH)
 
-CONFIGURE_PARAMS= --prefix=${PREFIX} --enable-shared
+CONFIGURE_PARAMS= --prefix=${PREFIX} --enable-shared --disable-avs --disable-swscale --disable-lavf --disable-ffms --disable-gpac --disable-lsmash
 
 all: install
 
