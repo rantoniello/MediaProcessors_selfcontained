@@ -75,8 +75,11 @@ CLEAN_MACRO= $(CLEAN_MACRO__:libname__=$(patsubst $*_%_clean,%,$@))
 	make $*_sdl
 	make $*_valgrind
 	make $*_live555
+	make $*_libconfig
+	make $*_crc
 	make $*_utils
 	make $*_procs
+#	make $*_transcoders
 	make $*_codecs
 	make $*_muxers
 	make $*_examples
@@ -98,12 +101,15 @@ CLEAN_MACRO= $(CLEAN_MACRO__:libname__=$(patsubst $*_%_clean,%,$@))
 
 %_utils \
 %_procs \
+%_transcoders \
 %_codecs \
 %_muxers \
 %_lame \
 %_cjson \
 %_uriparser \
-%_live555:
+%_live555 \
+%_libconfig \
+%_crc:
 	$(MAKE_MACRO)
 
 %_examples \
@@ -127,11 +133,14 @@ clean: $(ARCHS:=_clean)
 	make $*_cjson_clean
 	make $*_uriparser_clean
 	make $*_live555_clean
+	make $*_libconfig_clean
+	make $*_crc_clean
 	make $*_mongoose_clean
 	make $*_valgrind_clean
 	make $*_sdl_clean
 	make $*_utils_clean
 	make $*_procs_clean
+#	make $*_transcoders_clean
 	make $*_codecs_clean
 	make $*_muxers_clean
 	make $*_examples_clean
@@ -140,6 +149,7 @@ clean: $(ARCHS:=_clean)
 
 %_utils_clean \
 %_procs_clean \
+%_transcoders_clean \
 %_codecs_clean \
 %_muxers_clean \
 %_ffmpeg_lhe_clean \
@@ -147,7 +157,9 @@ clean: $(ARCHS:=_clean)
 %_lame_clean \
 %_cjson_clean \
 %_uriparser_clean \
-%_live555_clean:
+%_live555_clean \
+%_libconfig_clean \
+%_crc_clean:
 	$(CLEAN_MACRO)
 
 %_examples_clean \
