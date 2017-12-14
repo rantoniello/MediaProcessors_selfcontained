@@ -23,7 +23,7 @@ build: config
 install: build
 	cd $(BUILD_DIR); make install
 	#TODO: if flag GPL do TEST
-	cd $(BUILD_DIR); make utest
+	#cd $(BUILD_DIR); make utest
 	#endif
 
 clean:
