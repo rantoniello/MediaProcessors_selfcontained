@@ -41,3 +41,6 @@
 [submodule "3rdplibs/libconfig"]
 	path = 3rdplibs/libconfig
 	url = https://github.com/rantoniello/libconfig.git
+[submodule "toolchains/mingw-w64_selfcontained"]
+	path = toolchains/mingw-w64_selfcontained
+	url = https://github.com/rantoniello/mingw-w64_selfcontained.git
