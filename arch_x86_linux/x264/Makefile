@@ -3,7 +3,7 @@ BUILD_DIR:= $(shell pwd)/build_dir
 SOURCE_DIR:= $(shell pwd)/../../3rdplibs/$(LIBNAME)
 PREFIX:= $(INSTALL_DIR)$(CROSS_ARCH)
 
-# Export PATH to be able to find YASM in compilation
+# Export PATH to be able to find NASM in compilation
 export PATH:= $(PREFIX)/bin:$(PATH)
 
 CONFIGURE_PARAMS= --prefix=${PREFIX} --enable-shared --disable-avs --disable-swscale --disable-lavf --disable-ffms --disable-gpac --disable-lsmash

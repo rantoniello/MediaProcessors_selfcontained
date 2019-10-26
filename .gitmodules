@@ -25,9 +25,6 @@
 [submodule "3rdplibs/valgrind"]
 	path = 3rdplibs/valgrind
 	url = https://github.com/rantoniello/valgrind.git
-[submodule "3rdplibs/yasm"]
-	path = 3rdplibs/yasm
-	url = https://github.com/rantoniello/yasm.git
 [submodule "3rdplibs/nasm"]
 	path = 3rdplibs/nasm
 	url = https://github.com/rantoniello/nasm.git
