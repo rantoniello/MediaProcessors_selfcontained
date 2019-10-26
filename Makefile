@@ -95,6 +95,7 @@ CLEAN_MACRO= $(CLEAN_MACRO__:libname__=$(patsubst $*_%_clean,%,$@))
 	$(MAKE_MACRO)
 
 %_x264:
+	make $*_yasm
 	make $*_nasm
 	$(MAKE_MACRO)
 
@@ -112,6 +113,7 @@ CLEAN_MACRO= $(CLEAN_MACRO__:libname__=$(patsubst $*_%_clean,%,$@))
 	$(MAKE_MACRO)
 
 %_examples \
+%_yasm \
 %_nasm \
 %_unittest-cpp \
 %_mongoose \
@@ -125,6 +127,7 @@ clean: $(ARCHS:=_clean)
 	make $*_ffmpeg_lhe_clean
 	make $*_x264_clean
 	make $*_lame_clean
+	make $*_yasm_clean
 	make $*_nasm_clean
 	make $*_unittest-cpp_clean
 	make $*_cjson_clean
@@ -160,6 +163,7 @@ clean: $(ARCHS:=_clean)
 	$(CLEAN_MACRO)
 
 %_examples_clean \
+%_yasm_clean \
 %_nasm_clean \
 %_unittest-cpp_clean \
 %_mongoose_clean \
