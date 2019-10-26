@@ -16,9 +16,6 @@
 [submodule "3rdplibs/sdl"]
 	path = 3rdplibs/sdl
 	url = https://github.com/rantoniello/sdl.git
-[submodule "3rdplibs/unittest-cpp"]
-	path = 3rdplibs/unittest-cpp
-	url = https://github.com/rantoniello/unittest-cpp.git
 [submodule "3rdplibs/uriparser"]
 	path = 3rdplibs/uriparser
 	url = https://github.com/rantoniello/uriparser.git
